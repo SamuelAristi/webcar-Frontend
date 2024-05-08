@@ -20,14 +20,68 @@ const _nav = [
   },
   {
     component: CNavGroup,
-    name: 'Restaurants',
-    to: '/restaurants',
+    name: 'Communities',
+    to: '/communities',
     icon: <CIcon icon={cilFastfood} customClassName="nav-icon" />,
     items: [
       {
         component: CNavItem,
-        name: 'Restaurant',
-        to: '/restaurants/restaurant'
+        name: 'Community',
+        to: '/communities/community'
+      }
+    ]
+  },
+  {
+    component: CNavGroup,
+    name: 'Customers',
+    to: '/customers',
+    icon: <CIcon icon={cilFastfood} customClassName="nav-icon" />,
+    items: [
+      {
+        component: CNavItem,
+        name: 'Customer',
+        to: '/customers/customer'
+      },
+      {
+        component: CNavItem,
+        name: 'Product',
+        to: '/customers/product'
+      }
+    ]
+  },
+  {
+    component: CNavGroup,
+    name: 'Sales',
+    to: '/sales',
+    icon: <CIcon icon={cilFastfood} customClassName="nav-icon" />,
+    items: [
+      {
+        component: CNavItem,
+        name: 'Sale',
+        to: '/sales/sale'
+      }
+    ]
+  },
+  {
+    component: CNavGroup,
+    name: 'Users',
+    to: '/users',
+    icon: <CIcon icon={cilFastfood} customClassName="nav-icon" />,
+    items: [
+      {
+        component: CNavItem,
+        name: 'Car',
+        to: '/users/car'
+      },
+      {
+        component: CNavItem,
+        name: 'Publication',
+        to: '/users/publication'
+      },
+      {
+        component: CNavItem,
+        name: 'User',
+        to: '/users/user'
       }
     ]
   },
